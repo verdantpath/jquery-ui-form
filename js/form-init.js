@@ -15,5 +15,5 @@ $(function() {
 	});
 	$amount
 		.val('$' + $range.slider('values', 0)
-		+ ' - $' + $range.slier('values', 1));
+		+ ' - $' + $range.slider('values', 1));
 });
