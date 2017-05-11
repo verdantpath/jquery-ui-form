@@ -4,7 +4,7 @@ $(function() {
 	var $amount = $('#amount');
 	var $range = $('#price-range');
 
-	$('#price-range').slider({
+	$range.slider({
 		range: true,
 		min: 0,
 		max: 400,
